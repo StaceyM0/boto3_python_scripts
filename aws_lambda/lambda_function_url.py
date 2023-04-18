@@ -90,7 +90,7 @@ response_add_permission = client_lambda.add_permission(
     FunctionUrlAuthType='NONE'    
     )
 
-#%%
+#%% but why 
 ### Create Lambda Function URL
 
 client_lambda = boto3.client('lambda')
